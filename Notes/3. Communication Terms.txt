@@ -1,0 +1,52 @@
+######################################################################
+WCF - Communication Terms
+######################################################################
+
+Remote procedure call:
+
+RPC (or) RMI - Foundation of communication. If there is C# application, we compile the applicationa and publish the application as a exe
+when the exe is run, the functions related to the exe get loaded into the memory space of the computer running the exe. if you need to access 
+the memory space of different computer runnning certain application, it can be done through RPC, where the communcation between two different
+memory space in two different computers is done via operating system by means of RPC. In Java its called Remote Method Invocation.
+
+COM: In microsoft COM was introduced where within same computer two applications need to communicate we can use COM. 
+DCOM: Dynamic Component Object Model. Applications with different computers can access their functionality using DCOM.
+Remoting: .Net implementing Remoting.
+CORBA, XML-RPC - Different protocols were introduced for communication.
+SOAP - Next version XML communication is SOAP. Still lot of communication is done via SOAP.
+
+Endpoint : Important topic in communication is Endpoint. 
+
+If my program is running on a server, If a different machine needs to access my program and its methods we need an endpoint for the different computer to access
+my program and its method.
+
+- Address - Endpoint will contain an address, which will be the IP address of the server or computer exposing/hosting the program.
+
+- Binding - which protocol to use for communication, whether its HTTP,TCP/IP
+
+- Contract - We can have multiple methods in a program, but accessibility will be restricted to only certain methods bound by the contract. 
+
+- Proxy/ Stub. After you create a service, the next step is to create a WCF client proxy. A client application uses the WCF client proxy to communicate with the service. 
+Client applications usually import a service's metadata to generate WCF client code that can be used to invoke the service.
+
+Client which invokes the remote procedure, will create a local copy of the procedure it invokes. Stub is at the receiving end where its separate the parameters passed(unmarshalling) and sent
+it to the procedure.
+
+Message(Method Contract) - Message is a term frequently used in WCF. Message is the request which is passed from client to server which hosts the service.
+
+Communication Mode
+
+One way communication: if you have a device where if it receives a message or intimidation it just passes the message to the server.
+Request/Reply: if you type a web address, the request goes to the server and reply comes back from server
+Duplex: two way communication, client/server both will take request and responses. 
+
+Data (Data Contract): information which goes from client to server is called parameter. Reply from server is data/data contract. 
+
+Encoding: 
+
+Text encoding - 
+
+
+
+
+

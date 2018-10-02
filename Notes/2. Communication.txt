@@ -1,0 +1,48 @@
+######################################################################
+WCF - Communication
+######################################################################
+
+Communication:
+
+What is communication?
+
+In older days each and every one were working on individual computers, so for example if you need to take a print out only one machine will be
+connected to printer, we need to take documents via floppy to the machine connected to printer, chances are floppy may not work. To overcome this
+issue netwroking was introduced.
+
+Networking:
+
+For networking computers were connected with wires or wireless so communication can be established between computers
+
+Protocol:
+
+To establish communication between computer certain standard were established which is protocol.
+
+Communication with same computer:
+
+Different Processes: Communication is not a new concept, it is there since operating system is created. Interaction between different processes is also communication
+
+Inter communication: For example if you insert CD into drive, we get a instant notification asking whether to play contents, this is hapenning via communication between drive and application through operating system,
+Similarly when you type in keyboard, key strokes are captured by os and piped to application which is also a communication
+
+Visual Basic for Microsoft Office: using VBA you can program to open excel application, intruct excel application to create workbook etc. These actions are done via communication 
+
+Service Oriented Development
+
+Communication with differentcomputer:
+
+Sepearte machine - Communication can happen different computer within same room, area, or different part of the world, where computer can be connected via wires or wireless
+Connected by Intranet/Internet - Computers can be connected via Intranet which is Local area network or via Internet wide area network.
+Communication - Goal is to make different computers communicate to each other.
+
+Communcation with different devices:
+
+Different Devices: communication with different computer machines, communication with computer and mobile is possible
+Different Technology: Communication with different technologies example between Java app and .Net app, between python interface and ruby interface
+How to intercommunicate? WCF was introduced to establish intercommunication between different devices and different technologies. where methods will be exposed for users to consume
+
+
+
+
+
+

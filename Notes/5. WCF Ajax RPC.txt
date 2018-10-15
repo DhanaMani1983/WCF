@@ -1,0 +1,50 @@
+######################################################################
+WCF - Ajax RPC
+######################################################################
+
+1. Open Visual studio, create an empty web application project .
+
+2. Adding WCF service
+   Group services under a folder, so create a folder named services
+   Right click new folder, add services and name it appropriately.
+3. Looking into service interface. 
+   when you add wcf service, an interface gets created which is the service contract. 
+   only methods/functions in service contract is exposed to public 
+   service contract can have multiple functions, but only functions which is marked as operation contract
+   will be available to public. 
+4. How the service interface is implemented.
+   Use cntrl + . to implement interface
+   In the class which implements interface add appropriate code 
+5. Special care for JSON return 
+   For Ajax/Jquery call to a service function will need json format, so to get the output in json format
+   we need to add web invoke method. add class library servicemodel.web to include the classes need for web invoke. 
+6. Configuring WCF services- Most typical part is configuration of wcf services, it plays a important part 
+   web.config: when you add a service, certain configurations gets added to web.config. these configurations are
+   system.servicemodel which has behaviours which is about the applications and what behaviour it should include.
+   also it includes common configuration 
+7. Configure our services: how to expose the service 
+   Services 
+     Service
+       Endpoint - For inter operability purpose we can expose the service as rest api, wshttp, tcp, named pipe
+                  We can have seperate endpoints for java apps, python apps etc
+   Service behaviour
+   Endpoint behaviour 
+   Before configurin the project build the project, only then dll will be created in bin folder 
+   Right click web.config and click edit wcf configurations. A new popup window will open, click create new service 
+   In the service type, browse and select the service dll from the bin folder. it will list the service types available, select the appropriate service type
+   Next Select the interface/service contract to expose 
+   Next select the communication mode which can be HTTP.
+   Next select interoperability, select basic if you want to expose as web api's 
+   Next select the endpoint 
+ Once configuration is finished new services section will appear in web.config 
+ Basic http binding will not support json so we use web http binding 
+ Just like service behaviour, we can have end point behaviour. If there are multiple service for which we have created different endpoint
+ if each endpoint has unique behaviour we can create seperate end point behaviour with unique name and attach behaviour name to the service
+8. Adding default aspx page
+9. set the default page as start up page. run the application to load default page with button. navigate to http://localhost/services/servicename.svc
+to check whether service is running.
+using ajax invoke the service  
+
+   
+
+

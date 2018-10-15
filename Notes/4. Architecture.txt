@@ -1,0 +1,63 @@
+######################################################################
+WCF - Architecture 
+######################################################################
+
+Service Oriented Architecture:
+
+1. Contracts - Data Contract, Message Contract, Service Contract, Policy and Binding 
+
+Service contract consists of collection of messages, for each message if there is data it is received using data contract. 
+
+Policy and Binding - Who can access which service, message and data is policy and how can they access if binding 
+
+2. Service Runtime:
+
+When a service is running it has many behaviours which can be
+
+Throttling Behaiour: How many client can access simultaneously?
+
+Error Behaviour: If there is error in service how the client will be notified.
+
+Metadata Behaviour: Information about service given to the client is through metadata behaviour 
+
+Instance behaviour: Information about instance
+
+Message Inspection: What kind/type of message received from client
+
+Transaction Behaviour: Similar to sql transaction, where everything goes or nothing goes. 
+
+Dispatch Behaviourm Concurrency Behaviour, Parameter Filetering 
+
+3. Messaging: How communication would be done via messaging
+
+WS Security Channel, WS Reliable Messaging Channel, Encoders Binary/MTOM,XML, HTTP Channel
+
+4. Activation and hosting 
+
+Windows actication service, .exe, windows service, com+.
+
+WCF Benefits:
+
+Asynchronous one way messaging: 
+
+Support for Cross vendor interoperability
+
+Reliability
+
+Platform ConsolidationL
+  Web Service
+
+  Enterprise Services (COM+)
+
+ Microsoft Messaging Queue(MSMQ)
+
+Explicit support for Service Oriented Development 
+
+
+
+
+
+
+
+
+

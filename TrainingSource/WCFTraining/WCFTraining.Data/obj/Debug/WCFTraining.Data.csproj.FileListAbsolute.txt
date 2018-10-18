@@ -1,0 +1,12 @@
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\WCFTraining.Data.dll.config
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\WCFTraining.Data.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\WCFTraining.Data.pdb
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\EntityFramework.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\EntityFramework.xml
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\obj\Debug\WCFTraining.Data.csprojResolveAssemblyReference.cache
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\obj\Debug\WCFTraining.Data.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\obj\Debug\WCFTraining.Data.pdb
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\WCFTraining.Model.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Data\bin\Debug\WCFTraining.Model.pdb

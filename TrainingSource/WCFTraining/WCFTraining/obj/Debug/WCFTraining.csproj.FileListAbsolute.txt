@@ -1,0 +1,5 @@
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining\bin\WCFTraining.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining\bin\WCFTraining.pdb
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining\obj\Debug\WCFTraining.csprojResolveAssemblyReference.cache
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining\obj\Debug\WCFTraining.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining\obj\Debug\WCFTraining.pdb

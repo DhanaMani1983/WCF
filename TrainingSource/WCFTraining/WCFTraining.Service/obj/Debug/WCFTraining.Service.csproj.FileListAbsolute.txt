@@ -1,0 +1,14 @@
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\obj\Debug\WCFTraining.Service.csprojResolveAssemblyReference.cache
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\WCFTraining.Service.dll.config
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\WCFTraining.Service.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\WCFTraining.Service.pdb
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\obj\Debug\WCFTraining.Service.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\obj\Debug\WCFTraining.Service.pdb
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\EntityFramework.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\WCFTraining.Data.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\WCFTraining.Data.pdb
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\EntityFramework.xml
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\WCFTraining.Model.dll
+C:\SHSS\WCF\TrainingSource\WCFTraining\WCFTraining.Service\bin\Debug\WCFTraining.Model.pdb

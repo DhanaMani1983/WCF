@@ -26,4 +26,49 @@ Add methods to extend in the interface, implement the interface in the class.
 In app.config new service endpoint will be created for the new service
 
 6. Service Reference
+How to add service reference: If there is a remoted procedure/service in a server, the information about the service
+is given to the client through wsdl. To add service reference, Build the service project first. 
+right service reference on project where to add the reference
+and select discover. It will list the services available in the solution, select the service to add and give a name. 
+
+7. Analyse configuration
+Go to web.config to analyse service model, within service model you have services, endpoint etc 
+
+8. Auto hosting
+Auto hosting provision by microsoft - when you right click a project and select properties. you will see wcf options 
+you will see ticked option start wcf service host when debugging another project in the same solution 
+when a web project start, microsoft in built functionality will host wcf automatically. In os tab you can see two settings sign
+showing wcf service has started.
+
+Testing the wcf librart service: click the double settings sign in task bar and select meta data address
+
+9. Note binding address
+
+what is the default binding address? To verify in command line use - netsh http show urlacl
+
+10. WCF Test client: Using autohost service gets hosted in iis, to test whether the service is running properly you can use WCF Test client
+which can be found in location C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\WCFTestClient.exe
+run the application/project, copy the metadata address by selecting double settings symbol from task bar.
+paste the address in wcf test client and invoke to run the service 
+
+11. Create Proxy in web project:
+Create proxy in web project: while adding service reference, you would have given alias the for reference. using the alias create a proxy
+as below. using the proxy one can access the service methods
+
+            SimpleInterestService.SimpleInterestClient proxy = 
+                new SimpleInterestService.SimpleInterestClient();
+            double res = proxy.Calculate(50000, 18, 3);
+            lblResult.Text = "Simple Interest : " + res.ToString();
+            proxy.Close();
+
+When a service gets added you can create your own endpoint behaviour to match the http binding 
+
+12. WCF Configuration Tool:
+
+This is a important configuration tool, you can right click service app.config and select edit wcf configuration 
+
+
+
+
+
 

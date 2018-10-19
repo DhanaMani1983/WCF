@@ -1,0 +1,7 @@
+######################################################################
+WCF - Data Contract 
+######################################################################
+
+!. DataContract - If the service method needs to expose a object, we need to create a class
+   where the class tag will be data contract and the members will have tag datamembers 
+2. Error Handling Fault contract. - use try catch block and return new fault exception with error.

@@ -1,0 +1,29 @@
+######################################################################
+WCF - Service Oriented Application
+######################################################################
+1.Benefits
+
+For Jquery to invoke a web service, the service must be on same project. Isolating service on 
+different project or machine is called service oriented architecture
+
+Able to run on different machine
+Easily apply Company policy
+Easily redistribute access to client.
+
+2. Adding service library to solution - To add service library, right click solution and select wcf service library
+
+3. Analyse the configuration file. 
+
+4. App.config for WCF configuration - In app.config you will have service model, within it you will have services
+   When you add wcf as seperate project, new port number and http address gets assigned for the service
+   also new endpoint gets added. you need to mex attribute set for the endpoint for meta data exchangem only using mex
+   service can be consumed
+
+5. Simple interest service - To learn in details watch the video for more understanding
+To add custom service, remove the default service from the project. Add new service and name it SimpleInterest.
+Add methods to extend in the interface, implement the interface in the class.
+
+In app.config new service endpoint will be created for the new service
+
+6. Service Reference
+

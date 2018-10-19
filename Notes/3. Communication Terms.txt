@@ -44,7 +44,45 @@ Data (Data Contract): information which goes from client to server is called par
 
 Encoding: 
 
+When messages are communicated between client and server, there is chance where the message can be intercepted by another person. To establish secure communication between client and server
+Encoding is used. which can be of three types
+
 Text encoding - 
+Message Transmission Optimization Mechanism
+Binary.
+
+Protocol:
+
+Communication between one computer to another computer is done via messaging. To confirm message are delivered properly without any drop out we use protocol. 
+Protocol is used for hand shake mechanism
+
+HTTP, TCP, MSMQ - Microsoft messaging queue.
+
+Security:
+
+To secure access to procedures or methods security is used 
+
+Anonymous - Anyone can access, Windows Security - Windows authentication, Basic - Username and password,
+
+Metadata: WSDL is used to provide metadata to the client regarding the procedure in server. 
+
+About the operation
+About the Service
+About the data member
+About the data
+
+
+Hosting: Making function ready for access by client 
+
+Managed Hosting: 
+  Windows activation service - Example IIS 
+  Windows serivce - When windows starts
+
+Self Hosting - Whenever needed run an exe. 
+
+
+
+
 
 
 

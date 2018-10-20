@@ -1,0 +1,34 @@
+######################################################################
+WCF - WCF Glossary
+######################################################################
+
+1. Service Client Message:
+
+Service - collection of procedures/methods to be called
+
+Client - calls the procedures using service call
+
+Message - communication through messages
+
+2. Endpoints: 
+
+Address, binding, contract 
+
+Address - address at which service is accessed
+
+Binding - basichttp, web http
+
+Contract  - Interface which is exposed
+
+3. Behaviour - control the working of the service, end point, operation or a client 
+
+Behaviour types: Common behaviour, Endpoint behaviour, Service behaviour, Endpoint behaviour 
+
+4. Protocol: WCF supports lots of protocols
+
+HTTP: transport
+SOAP: Messaging
+TCP: Transport
+MTOM:Messaging
+WSDL: Metadata
+

@@ -2,3 +2,56 @@
 WCF - WCF and EF
 ######################################################################
 
+1. Creating a data project:
+To create a data project, add class library and name wcftraining.data
+To install EF go to nuget packages and install latest version of EF.
+To add DBcontext, right click on the project add new item then select data and select ADO.net ef
+
+2. Adding method to service
+
+To add a method to return list of customers. Add data project reference to service project 
+Create a interface method getCustomers to return list of customers.
+Implement the getCustomers method 
+Add database configuration to the service project 
+
+3. Testing WCF EF
+
+Once new methods are added to the service. Update service reference. In certain cases like returnin objects from EF.
+The returned object is of type dynamic proxies. you wouldn't be able to serialize the object and send it to the client.
+To do it we need to do additional settings 
+
+
+4. POCO - very important when it comes to WCF.
+
+Plain old CLR object - There is a risk that if you expose the object returned by EF to client. the client may 
+do some modification to the object. To avoid it EF has evolved. 
+
+Each EF will have context.tt and plain old .tt file. where .tt is proxied as context.tt. To support WCF we can 
+turn off context.tt. Go to the contructor of the context.tt and set this.Configuration.ProxyCreationEnabled = false;
+
+when you disable the ProxyCreationEnabled, object returned will be POCO and not proxy enabled object
+
+5. Cannot serialize proxy objects:
+
+WCF cannot serialize proxy objects, shut off porxy creations 
+
+6. Moving POCO to Model project
+
+Why? clear seperation, can introduce business layer 
+
+7. Creating model class library
+
+Add new class library, add reference for EF 
+
+8. Add fluent context -
+
+Right click model project, add new item, type ef 5. should filter ef 5.x DBContext fluent. Give it a name and add it.
+
+Delete context and mappint and leave entities. You need to specify edmx file as input in the entities 
+
+Delete the tt file in data project and add reference to model project in data reference 
+
+
+
+
+
